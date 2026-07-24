@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "OpenHeader — HTTP Header Editor",
+  "version": "0.1.0",
+  "description": "広告なし・追跡なし・オープンソース。リクエスト/レスポンスのHTTPヘッダーを編集する軽量ツール。ModHeaderの安全な代替。",
+  "permissions": ["declarativeNetRequest", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "OpenHeader — ヘッダー編集",
+    "default_icon": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+  },
+  "icons": { "16": "icon16.png", "48": "icon48.png", "128": "icon128.png" }
+}
