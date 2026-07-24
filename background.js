@@ -1,7 +1,7 @@
-// OpenHeader — ヘッダー書き換えの心臓部（Service Worker）
-// 設定(config)を読み、declarativeNetRequestの動的ルールに変換して適用する。
-// ※ネットワーク傍受はせず、Chrome公式のルールエンジンにヘッダー改変を"宣言"するだけ。
-//   拡張自身は通信内容を一切読まない/送らない（＝トラッキング不能な設計）。
+// OpenHeader — the heart of header rewriting (Service Worker)
+// Reads the config, converts it into declarativeNetRequest dynamic rules, and applies them.
+// It does NOT intercept network traffic; it only "declares" header changes to Chrome's
+// official rule engine. The extension itself never reads or sends any traffic (= untrackable by design).
 
 const RULE_ID = 1;
 const RESOURCE_TYPES = [
@@ -14,7 +14,7 @@ function defaultConfig() {
     enabled: false,
     activeProfile: "default",
     profiles: {
-      default: { name: "デフォルト", urlFilter: "", request: [], response: [] },
+      default: { name: "Default", urlFilter: "", request: [], response: [] },
     },
   };
 }
