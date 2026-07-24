@@ -5,6 +5,10 @@ Built for developers, QA, and API testing — with **no ads, no tracking, and mi
 
 > A safe, transparent alternative to header editors that inject ads or bundle tracking SDKs.
 
+![Modify any HTTP header](screenshots/headers.png)
+
+> ⚙️ **Status:** Chrome Web Store listing is in review. You can already use it today by loading it unpacked (see [Install](#install)).
+
 ## Features
 - Add / set / remove **request** headers
 - Add / set / remove **response** headers
@@ -27,13 +31,17 @@ Header modifications are applied through Chrome's official [`declarativeNetReque
 | `storage` | Save your header rules/profiles locally |
 | `host_permissions: <all_urls>` | Let your headers apply to whatever site/API you're working on (you can restrict per profile with a URL filter). No page content is read. |
 
-## Install
-**From source (developer mode):**
-1. Download or clone this repo.
-2. Open `chrome://extensions` and enable **Developer mode**.
-3. Click **Load unpacked** and select this folder.
+|  |  |
+|---|---|
+| ![Profiles](screenshots/profiles.png) | ![No ads, no tracking, open source](screenshots/trust.png) |
 
-*(Chrome Web Store listing: coming soon.)*
+## Install
+**From source (developer mode) — works today:**
+1. [Download this repo as a ZIP](https://github.com/smartfabai-commits/openheader/archive/refs/heads/main.zip) and unzip it (or `git clone`).
+2. Open `chrome://extensions` and enable **Developer mode** (top right).
+3. Click **Load unpacked** and select the folder.
+
+*(Chrome Web Store listing is in review — a one-click install is coming soon.)*
 
 ## Usage
 1. Click the OpenHeader icon.
