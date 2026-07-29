@@ -7,7 +7,7 @@ Built for developers, QA, and API testing — with **no ads, no tracking, and mi
 
 ![Modify any HTTP header](screenshots/headers.png)
 
-> ⚙️ **Status:** Chrome Web Store listing is in review. You can already use it today by loading it unpacked (see [Install](#install)).
+> ✅ **Now available on the [Chrome Web Store](https://chromewebstore.google.com/detail/openheader-%E2%80%94-http-header/aeabnpbnofhlnphkfmfjoolfheljpnkg).** One-click install — or load it unpacked from source (see [Install](#install)).
 
 ## Features
 - Add / set / remove **request** headers
@@ -36,12 +36,13 @@ Header modifications are applied through Chrome's official [`declarativeNetReque
 | ![Profiles](screenshots/profiles.png) | ![No ads, no tracking, open source](screenshots/trust.png) |
 
 ## Install
-**From source (developer mode) — works today:**
+**From the Chrome Web Store (recommended):**
+👉 **[Add OpenHeader to Chrome](https://chromewebstore.google.com/detail/openheader-%E2%80%94-http-header/aeabnpbnofhlnphkfmfjoolfheljpnkg)**
+
+**From source (developer mode):**
 1. [Download this repo as a ZIP](https://github.com/smartfabai-commits/openheader/archive/refs/heads/main.zip) and unzip it (or `git clone`).
 2. Open `chrome://extensions` and enable **Developer mode** (top right).
 3. Click **Load unpacked** and select the folder.
-
-*(Chrome Web Store listing is in review — a one-click install is coming soon.)*
 
 ## Usage
 1. Click the OpenHeader icon.
