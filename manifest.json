@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "OpenHeader — HTTP Header Editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "No ads, no tracking, open source. Modify request & response HTTP headers. A lightweight, safe alternative to ModHeader.",
   "permissions": ["declarativeNetRequest", "storage"],
   "host_permissions": ["<all_urls>"],
