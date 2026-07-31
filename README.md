@@ -1,9 +1,9 @@
 # OpenHeader — HTTP Header Editor
 
-A clean, open-source Chrome extension to **add, modify, and remove HTTP request & response headers**.
-Built for developers, QA, and API testing — with **no ads, no tracking, and minimal permissions**.
+A clean, open-source Chrome extension to **add, modify, and remove HTTP request & response headers** — that **never reads or intercepts your traffic**.
+Built for developers, QA, and API testing — with no ads, no tracking, and minimal permissions.
 
-> A safe, transparent alternative to header editors that inject ads or bundle tracking SDKs.
+> It changes your header *rules* through Chrome's rule engine; it can't see, log, or transmit your requests — by design. A safe, transparent alternative to header editors that bundle tracking SDKs.
 
 ![Modify any HTTP header](screenshots/headers.png)
 
