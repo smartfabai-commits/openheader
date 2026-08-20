@@ -7,7 +7,7 @@ Built for developers, QA, and API testing — with no ads, no tracking, and mini
 
 ![Modify any HTTP header](screenshots/headers.png)
 
-> ✅ **Now available on the [Chrome Web Store](https://chromewebstore.google.com/detail/openheader-%E2%80%94-http-header/aeabnpbnofhlnphkfmfjoolfheljpnkg).** One-click install — or load it unpacked from source (see [Install](#install)).
+> ✅ **Now available on the [Chrome Web Store](https://chromewebstore.google.com/detail/openheader-%E2%80%94-http-header/aeabnpbnofhlnphkfmfjoolfheljpnkg) and [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/openheader-%E2%80%94-http-header-/lfpmccmdldaifijgikijgcciccfjlgge).** One-click install — or load it unpacked from source (see [Install](#install)).
 
 ## Features
 - Add / set / remove **request** headers
@@ -38,6 +38,9 @@ Header modifications are applied through Chrome's official [`declarativeNetReque
 ## Install
 **From the Chrome Web Store (recommended):**
 👉 **[Add OpenHeader to Chrome](https://chromewebstore.google.com/detail/openheader-%E2%80%94-http-header/aeabnpbnofhlnphkfmfjoolfheljpnkg)**
+
+**From Microsoft Edge Add-ons:**
+👉 **[Add OpenHeader to Edge](https://microsoftedge.microsoft.com/addons/detail/openheader-%E2%80%94-http-header-/lfpmccmdldaifijgikijgcciccfjlgge)**
 
 **From source (developer mode):**
 1. [Download this repo as a ZIP](https://github.com/smartfabai-commits/openheader/archive/refs/heads/main.zip) and unzip it (or `git clone`).
